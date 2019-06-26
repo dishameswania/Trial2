@@ -36,7 +36,5 @@ pipelines:
         configuration:
           inputSteps:
             - name: publish_npm
-          integrations:
-            - name: artdisha
           outputResources:
             - name: helloworld_build_info
